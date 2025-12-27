@@ -5,7 +5,7 @@ import {useState,useEffect} from 'react';
 function Menu(){
 const [Burgers,setBurgers] = useState([]);
 useEffect(()=>{
-    fetch('http://localhost:5000/burgers')
+    fetch('https://full-backend-20v0.onrender.com')
     .then(response =>response.json())
     .then(data=>setBurgers(data))
     .catch(error => console.error('error fetching',error))
