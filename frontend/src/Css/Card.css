@@ -1,0 +1,23 @@
+.Card1{
+border: 1px solid black;
+background: white;
+max-width: 400px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 6px 6px 6px 4px black;
+display: inline-block;
+margin-top: 30px;
+
+}.Card1 img{
+height: 250px;
+width: 250px;
+border-radius: 20px;
+box-shadow: 6px 6px 6px 4px black;
+transition: all 2s ease-in-out;
+}.Card1 p{
+font-weight: bold;
+font-size: 20px;
+}.Card1 img:hover{
+ transform: scale(1.4,1.4);
+ box-shadow: 6px 6px 4px 4px red;
+}
